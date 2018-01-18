@@ -200,7 +200,7 @@ def next_move(hunter_position, hunter_heading, target_measurement, max_distance,
         # if distance_between(hunter_position, next_pos) > max_distance, hunter go to new (cx, cy-r), 
         # else catch the target robot
 
-	    # retrieve information
+	# retrieve information
         x = OTHER['x']
     	y = OTHER['y']
     	N = OTHER['measurement_num']
