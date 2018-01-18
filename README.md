@@ -24,7 +24,7 @@ Since it is easy to show that the discrete positions of the target robot are on 
 xk = cx + r * cos(omega * k + theta) + wk,
 yk = cy + r * sin(omega * k + theta) + vk, 
 
-where (cx, cy) is the center of the circle, r is the radius, omega is the angular velocity of the target, and theta is its initial phase angle. 
+where (cx, cy) is the center of the circle, r is the radius, omega is the angular velocity of the target, and theta is its initial phase angle. wk and vk are gaussian white noise.
 
 One can estimate (cx, cy, r, omega, theta) by minimizing f = sum ((cx+r * cos(omega * k+theta)-xk)^2 + (cy+r*sin(omega * k+theta)-yk)^2). Note that f is not convex. A good initial guess can be achieved by doing DFT of x and y, since x, y are corrupted sinusoids. Once initial guess is acquired, gradient based search can be used. After one gets the function of the circle, our robot can move on the circle and wait for the target. 
 
