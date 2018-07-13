@@ -1,6 +1,10 @@
 # Udacity-Runaway-Robot-Project
 This is my code for the runaway robot project for the course 'Artificial Intelligence for Robotics' on Udacity
 
+Update: 
+
+My solution for this project was only intended for reference. But unfortunately a few students taking this Georgia Tech online course simply copied my code and had a case before the office of student integrity. Therefore, I have made my solution code private. Hopefully this readme file can still have some value for those who is struggling with this project. 
+
 Background:
 
 A robotics company named Trax has created a line of small self-driving robots designed to autonomously traverse desert environments in search of undiscovered water deposits.
